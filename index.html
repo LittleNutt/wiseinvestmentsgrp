@@ -24,15 +24,130 @@
           Menu
         </button>
         <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#approach">Approach</a>
-          <a href="#insights">Insights</a>
+          <a href="#why-us">Why Us</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
 
       <main id="top">
-        <!-- (everything above unchanged) -->
+        <section class="hero">
+          <div class="hero-content">
+            <p class="eyebrow">Real estate and property management</p>
+            <h1>Strategic property guidance with a refined standard of care</h1>
+            <p class="lead">
+              WISE Investments Group LLC supports owners, investors, and real estate clients with
+              thoughtful strategy, clear communication, and disciplined property oversight.
+            </p>
+            <div class="hero-actions" aria-label="Primary calls to action">
+              <a class="button button-primary" href="#contact">Request a Consultation</a>
+              <a class="button button-secondary" href="#services">View Services</a>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Company highlights">
+            <p class="card-label">WISE approach</p>
+            <h2>Calm decisions. Stronger property outcomes.</h2>
+            <div class="signal-list">
+              <div>
+                <span class="signal-value">01</span>
+                <p class="signal-text">Focused guidance for acquisition, ownership, leasing, and long-term planning.</p>
+              </div>
+              <div>
+                <span class="signal-value">02</span>
+                <p class="signal-text">Professional communication designed to keep clients informed and confident.</p>
+              </div>
+              <div>
+                <span class="signal-value">03</span>
+                <p class="signal-text">A measured, stewardship-minded approach to real estate and property management.</p>
+              </div>
+            </div>
+          </aside>
+        </section>
+
+        <section id="about" class="content-section about-section">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Built for thoughtful owners, investors, and real estate clients</h2>
+          </div>
+          <div class="about-grid">
+            <div>
+              <p>
+                WISE Investments Group LLC provides professional support across real estate,
+                property management, and investment guidance. The firm is focused on helping
+                clients move with clarity, protect property value, and make better-informed
+                decisions.
+              </p>
+            </div>
+            <div>
+              <p>
+                From evaluating opportunities to coordinating property needs, WISE Investments
+                Group LLC brings a steady, detail-oriented perspective to every conversation.
+                The goal is simple: align each real estate decision with practical strategy and
+                long-term value.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="content-section services-section">
+          <div class="section-heading">
+            <p class="eyebrow">Services</p>
+            <h2>High-touch support for property decisions and ownership</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <span class="service-number">01</span>
+              <h3>Property Management</h3>
+              <p>
+                Organized management support for property owners who value responsiveness,
+                consistency, and dependable oversight.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-number">02</span>
+              <h3>Real Estate Consulting</h3>
+              <p>
+                Clear guidance for buying, selling, leasing, and evaluating real estate decisions
+                with confidence.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-number">03</span>
+              <h3>Investment Guidance</h3>
+              <p>
+                Strategic perspective for clients considering property opportunities, portfolio
+                direction, and long-term goals.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="why-us" class="content-section why-section">
+          <div class="section-heading">
+            <p class="eyebrow">Why choose us</p>
+            <h2>A modern, measured approach to real estate stewardship</h2>
+          </div>
+          <div class="highlight-grid">
+            <article class="highlight-item">
+              <h3>Local Market Knowledge</h3>
+              <p>Insightful guidance shaped by property trends, neighborhood context, and practical ownership needs.</p>
+            </article>
+            <article class="highlight-item">
+              <h3>Professional Guidance</h3>
+              <p>Steady support through real estate decisions, management priorities, and investment conversations.</p>
+            </article>
+            <article class="highlight-item">
+              <h3>Transparent Communication</h3>
+              <p>Clear next steps, timely follow-up, and a client experience built around trust.</p>
+            </article>
+            <article class="highlight-item">
+              <h3>Long-Term Strategy</h3>
+              <p>Planning that looks beyond the transaction and considers lasting property value.</p>
+            </article>
+          </div>
+        </section>
 
         <section id="contact" class="content-section contact-section">
           <div class="section-heading">
@@ -50,13 +165,13 @@
                 <a href="mailto:alan@wiseinvestmentsgrp.com">alan@wiseinvestmentsgrp.com</a>
               </p>
               <p class="contact-note">
-                Add your phone number, service area, office location, and any brokerage or
-                compliance language here when you are ready.
+                Share a few details below and the team will follow up about your real estate,
+                property management, or investment guidance needs.
               </p>
               <p class="legal-links">
-                <a href="/terms">Terms</a>
+                <a href="terms.html">Terms</a>
                 <span aria-hidden="true">/</span>
-                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="privacy-policy.html">Privacy Policy</a>
               </p>
             </div>
 
@@ -109,12 +224,19 @@
       </main>
 
       <footer class="site-footer">
-        <p>WISE Investments Group LLC</p>
-        <p class="legal-links">
-          <a href="/terms">Terms</a>
-          <span aria-hidden="true">/</span>
-          <a href="/privacy-policy">Privacy Policy</a>
-        </p>
+        <div class="footer-brand">
+          <strong>WISE Investments Group LLC</strong>
+          <span>Real Estate | Property Management | Investment Guidance</span>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#why-us">Why Us</a>
+          <a href="#contact">Contact</a>
+          <a href="terms.html">Terms</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </nav>
+        <p class="copyright">&copy; 2026 WISE Investments Group LLC. All rights reserved.</p>
       </footer>
     </div>
 
