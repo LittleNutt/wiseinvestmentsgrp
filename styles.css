@@ -377,8 +377,14 @@ h3 {
   background: rgba(255, 251, 244, 0.78);
 }
 
+.contact-copy,
+.contact-form {
+  min-width: 0;
+}
+
 .contact-form {
   display: grid;
+  width: 100%;
   gap: 14px;
 }
 
@@ -397,12 +403,18 @@ h3 {
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+  min-width: 0;
   border: 1px solid rgba(27, 27, 24, 0.12);
   border-radius: 16px;
   padding: 14px 16px;
   background: rgba(255, 255, 255, 0.8);
   color: var(--ink);
   font: inherit;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
 }
 
 .contact-form input:focus,
@@ -441,6 +453,7 @@ h3 {
 }
 
 .consent-copy {
+  min-width: 0;
   color: var(--muted);
   font-size: 0.95rem;
   line-height: 1.65;
@@ -560,6 +573,19 @@ h3 {
 
   .hero {
     padding: 22px;
+  }
+
+  .contact-panel {
+    gap: 22px;
+    padding: 20px;
+  }
+
+  .contact-form .button {
+    width: 100%;
+  }
+
+  .consent-field {
+    padding: 14px;
   }
 
   h1 {
